@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mkay-backend
+    env: python
+    buildCommand: ""
+    startCommand: "pipenv run python app.py"
+    envVars:
+      - key: FLASK_ENV
+        value: production

@@ -12,7 +12,9 @@ def create_app():
     app = Flask(__name__)
 
     app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY", "super-secret")
-    app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://maverick:pharaoh@localhost:5432/mkay_events"
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get(
+    "DATABASE_URL", "postgresql://maverick:pharaoh@localhost:5432/mkay_events"
+    )
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['SESSION_TYPE'] = "filesystem"
     app.config['SESSION_PERMANENT'] = False
