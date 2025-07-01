@@ -1,0 +1,77 @@
+.
+├── client
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── public
+│   │   └── vite.svg
+│   ├── README.md
+│   ├── src
+│   │   ├── api.jsx
+│   │   ├── App.jsx
+│   │   ├── assets
+│   │   │   └── react.svg
+│   │   ├── components
+│   │   │   ├── EventForm.jsx
+│   │   │   ├── EventList.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── HeroSection.jsx
+│   │   │   └── Navbar.jsx
+│   │   ├── main.jsx
+│   │   ├── pages
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── MyEvents.jsx
+│   │   │   └── Register.jsx
+│   │   └── styles
+│   │       ├── Footer.css
+│   │       ├── HeroSection.css
+│   │       ├── Home.css
+│   │       ├── Login.css
+│   │       ├── MyEvents.css
+│   │       ├── Navbar.css
+│   │       └── Register.css
+│   └── vite.config.js
+├── cookies.txt
+├── Pipfile
+├── Pipfile.lock
+├── project_tree.txt
+├── README.md
+└── server
+    ├── app.py
+    ├── auth
+    │   ├── helpers.py
+    │   ├── __init__.py
+    │   └── routes.py
+    ├── config.py
+    ├── cookies.txt
+    ├── events
+    │   ├── __init__.py
+    │   └── routes.py
+    ├── flask_session
+    │   ├── 2029240f6d1128be89ddc32729463129
+    │   ├── 386b4c6161df3f36fcc62ec1493243bf
+    │   ├── 997e638ecb93628e786f422e3927eb76
+    │   └── e1039c66e78a23937ef7ca51aaed2a50
+    ├── migrations
+    │   ├── alembic.ini
+    │   ├── env.py
+    │   ├── README
+    │   ├── script.py.mako
+    │   └── versions
+    │       ├── 107d394d3f1a_initial_schema.py
+    │       ├── 173c5e20121d_initial.py
+    │       ├── 28f8b694d215_initial1.py
+    │       ├── d6707b8358d8_add_image_url_to_events.py
+    │       └── eeeaa0a9b008_increase_password_hash_size.py
+    ├── models.py
+    ├── Pipfile
+    ├── Pipfile.lock
+    ├── seed.py
+    └── static
+        ├── ima1.jpeg
+        ├── ima2.jpeg
+        └── ima3.jpeg
+
+15 directories, 60 files
